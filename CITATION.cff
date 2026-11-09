@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Target-Aware Sequential Design of X-ray Reflectivity Measurements for Buried Interface Defect Layers"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+version: 0.1.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/xrr-target-aware-design-buried-interface-defects"
+abstract: "Simulation study of photon-budgeted sequential Bayesian design for X-ray reflectivity of a buried interface defect layer in a superconducting thin film, with classical and quantum amortised regressors as baselines."

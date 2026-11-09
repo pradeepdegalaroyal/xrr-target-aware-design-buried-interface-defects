@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xrdesign"
+version = "0.1.0"
+description = "Sequential Bayesian design of X-ray reflectivity measurements for buried interface defect layers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Degala Chenchupradeep" }]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "scikit-learn", "torch", "pennylane"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
